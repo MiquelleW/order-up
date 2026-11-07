@@ -1,0 +1,39 @@
+body {
+  background-color: #f7f1df;
+  font-family: sans-serif;
+  color: #292929;
+  max-width: 40rem;
+  margin: 40px auto;
+  padding: 16px;
+}
+
+h1 {
+  color: #b22222;
+  text-align: center;
+}
+
+.box {
+  background-color: white;
+  color: #292929;
+  border: 3px solid #b22222;
+  margin-bottom: 16px;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.box h2 {
+  margin-top: 0;
+  color: #b22222;
+}
+
+.order-item {
+  background-color: #f7f1df;
+  border: 1px solid #b22222;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+#order-summary {
+  white-space: pre-line;
+}

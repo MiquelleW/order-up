@@ -4,15 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order Up!</title>
+    <!-- Bonus 1 -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>The Snack Feed: Order Up!</h1>
 
-    <h2>Our tags</h2>
-    <p id="tags"></p>
+    <div class="box">
+      <h2>Our tags</h2>
+      <p id="tags"></p>
+    </div>
 
-    <h2>Order total</h2>
-    <p id="total"></p>
+    <div class="box">
+      <h2>Order total</h2>
+      <p id="total"></p>
+      <!-- Bonus 2 -->
+      <p id="tax"></p>
+      <p id="total-with-tax"></p>
+    </div>
+
+    <!-- Bonus 3 -->
+    <div class="box">
+      <h2>Cheap Eats</h2>
+      <p id="cheap"></p>
+    </div>
+
+    <!-- Bonus 4 -->
+    <div class="box">
+      <h2>Place Your Order</h2>
+
+      <div id="order-menu">
+        <div class="order-item">
+          <label for="pizza-qty"> Pizza Dip & Garlic Knots — $11.99 </label>
+          <input type="number" id="pizza-qty" min="0" value="0" />
+        </div>
+
+        <div class="order-item">
+          <label for="philly-qty"> Philly Cheesesteak Eggrolls — $8.99 </label>
+          <input type="number" id="philly-qty" min="0" value="0" />
+        </div>
+
+        <div class="order-item">
+          <label for="potato-qty"> Loaded Potato Cheese Balls — $7.99 </label>
+          <input type="number" id="potato-qty" min="0" value="0" />
+        </div>
+
+        <div class="order-item">
+          <label for="fries-qty"> Cheeseburger Loaded Fries — $10.99 </label>
+          <input type="number" id="fries-qty" min="0" value="0" />
+        </div>
+
+        <button id="place-order">Place Order</button>
+
+        <h3>Order Summary</h3>
+        <p id="order-summary"></p>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
